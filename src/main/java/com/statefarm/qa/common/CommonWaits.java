@@ -1,10 +1,10 @@
-package com.allstate.qa.common;
+package com.statefarm.qa.common;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 
-import com.allstate.qa.base.BaseClass;
+import com.statefarm.qa.base.BaseClass;
 
 
 

@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 
 import com.statefarm.qa.base.BaseClass;
 
-
 public class AutoQuoteTest extends BaseClass {
 	
 	@Test

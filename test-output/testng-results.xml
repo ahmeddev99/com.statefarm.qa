@@ -2,38 +2,92 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[07457 : value passed to element : [[ChromeDriver: chrome on WINDOWS (d0f1ce3930c686448e31d7ba61a833a9)] -> id: quote-main-zip-code-input]<br>]]>
+      <![CDATA[07457 : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: quote-main-zip-code-input]<br>]]>
     </line>
     <line>
-      <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (d0f1ce3930c686448e31d7ba61a833a9)] -> id: quote-main-zip-btn]<br>]]>
+      <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: quote-main-zip-btn]<br>]]>
     </line>
     <line>
-      <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (d0f1ce3930c686448e31d7ba61a833a9)] -> id: billOfRightsModalCloseLinkId]<br>]]>
+      <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: billOfRightsModalCloseLinkId]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Jordan : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: first_name]<br>]]>
+    </line>
+    <line>
+      <![CDATA[R : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> xpath: //input[@id='middle_name']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Pippen : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> xpath: //input[@id='last_name']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> xpath: //span[@class='ui-selectmenu-icon ui-icon chevron']]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: ui-id-7]<br>]]>
+    </line>
+    <line>
+      <![CDATA[1 South Corporate Drive : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: street1]<br>]]>
+    </line>
+    <line>
+      <![CDATA[1C : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: street2]<br>]]>
+    </line>
+    <line>
+      <![CDATA[03231984 : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: date_of_birth]<br>]]>
+    </line>
+    <line>
+      <![CDATA[Element is clicking : Proxy element for: DefaultElementLocator 'By.xpath: (//button[@class='uitk-btn-primary'])[2]'<br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-05-09T09:28:09 EDT" name="Default suite" finished-at="2022-05-09T09:28:16 EDT" duration-ms="6771">
+  <suite started-at="2022-05-10T20:30:07 EDT" name="Default suite" finished-at="2022-05-10T20:30:33 EDT" duration-ms="26194">
     <groups>
     </groups>
-    <test started-at="2022-05-09T09:28:09 EDT" name="Default test" finished-at="2022-05-09T09:28:16 EDT" duration-ms="6771">
+    <test started-at="2022-05-10T20:30:07 EDT" name="Default test" finished-at="2022-05-10T20:30:33 EDT" duration-ms="26194">
       <class name="com.allstate.qa.auto.AutoQuoteTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.allstate.qa.auto.AutoQuoteTest@169e6180]" started-at="2022-05-09T09:28:09 EDT" name="setUp" finished-at="2022-05-09T09:28:13 EDT" duration-ms="4168" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.allstate.qa.auto.AutoQuoteTest@169e6180]" started-at="2022-05-10T20:30:07 EDT" name="setUp" finished-at="2022-05-10T20:30:11 EDT" duration-ms="4043" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="AutoTest()[pri:0, instance:com.allstate.qa.auto.AutoQuoteTest@169e6180]" started-at="2022-05-09T09:28:13 EDT" name="AutoTest" finished-at="2022-05-09T09:28:16 EDT" duration-ms="2582" status="PASS">
+        <test-method signature="AutoTest()[pri:0, instance:com.allstate.qa.auto.AutoQuoteTest@169e6180]" started-at="2022-05-10T20:30:11 EDT" name="AutoTest" finished-at="2022-05-10T20:30:33 EDT" duration-ms="22128" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[07457 : value passed to element : [[ChromeDriver: chrome on WINDOWS (d0f1ce3930c686448e31d7ba61a833a9)] -> id: quote-main-zip-code-input]<br>]]>
+              <![CDATA[07457 : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: quote-main-zip-code-input]<br>]]>
             </line>
             <line>
-              <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (d0f1ce3930c686448e31d7ba61a833a9)] -> id: quote-main-zip-btn]<br>]]>
+              <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: quote-main-zip-btn]<br>]]>
             </line>
             <line>
-              <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (d0f1ce3930c686448e31d7ba61a833a9)] -> id: billOfRightsModalCloseLinkId]<br>]]>
+              <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: billOfRightsModalCloseLinkId]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Jordan : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: first_name]<br>]]>
+            </line>
+            <line>
+              <![CDATA[R : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> xpath: //input[@id='middle_name']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Pippen : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> xpath: //input[@id='last_name']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> xpath: //span[@class='ui-selectmenu-icon ui-icon chevron']]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: ui-id-7]<br>]]>
+            </line>
+            <line>
+              <![CDATA[1 South Corporate Drive : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: street1]<br>]]>
+            </line>
+            <line>
+              <![CDATA[1C : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: street2]<br>]]>
+            </line>
+            <line>
+              <![CDATA[03231984 : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: date_of_birth]<br>]]>
+            </line>
+            <line>
+              <![CDATA[Element is clicking : Proxy element for: DefaultElementLocator 'By.xpath: (//button[@class='uitk-btn-primary'])[2]'<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- AutoTest -->
-        <test-method is-config="true" signature="cleaningUp()[pri:0, instance:com.allstate.qa.auto.AutoQuoteTest@169e6180]" started-at="2022-05-09T09:28:16 EDT" name="cleaningUp" finished-at="2022-05-09T09:28:16 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleaningUp()[pri:0, instance:com.allstate.qa.auto.AutoQuoteTest@169e6180]" started-at="2022-05-10T20:30:33 EDT" name="cleaningUp" finished-at="2022-05-10T20:30:33 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleaningUp -->

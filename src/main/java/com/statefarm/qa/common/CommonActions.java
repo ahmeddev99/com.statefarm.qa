@@ -29,6 +29,18 @@ public class CommonActions {
 			Assert.fail();  
 		}
 	}
+		
+	public void clear(WebElement element) {
+		try {
+			wait.until(ExpectedConditions.elementToBeClickable(element));
+			element.clear();
+			Reporter.log("Element is clicking : " + element + "<br>");
+		} catch (Exception e) {
+			e.printStackTrace(); // <--same thing as System.out.println():
+			Reporter.log("Element is unable to click: " + element + "\n" + e.getMessage() + "<br>");
+			Assert.fail();  
+		}
+	}
 	
 	public void inputText(WebElement element, String text) {
 		try {
@@ -56,7 +68,6 @@ public class CommonActions {
 	
 	public void selectDropDown(WebElement element, String value) {
 		try {
-			// BaseClass.waits.waitUntilSelectable(element);
 			Select select = new Select(element);
 			select.selectByValue(value);
 			Reporter.log(value + " : has been selected for element, " + element);
@@ -67,6 +78,9 @@ public class CommonActions {
 		}
 	}
 	
+
+
+
 }
 	
 	

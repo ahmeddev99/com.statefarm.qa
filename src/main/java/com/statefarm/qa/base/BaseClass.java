@@ -8,8 +8,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import com.statefarm.qa.common.CommonActions;
+import com.statefarm.qa.pages.GetYourQuotePage;
 import com.statefarm.qa.pages.LandingPage;
-import com.statefarm.qa.pages.PopUpWindow;
+import com.statefarm.qa.pages.PopUpWindowPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -19,7 +20,8 @@ public class BaseClass {
 	public static WebDriver driver;
 	public LandingPage landingPage;
 	public CommonActions commonActions;
-	public PopUpWindow popUpWindow;
+	public PopUpWindowPage popUpWindow;
+	public GetYourQuotePage getYourQuotePage;
 	
 	
 	@BeforeMethod
@@ -43,8 +45,8 @@ public class BaseClass {
 	public void initClasses() {
 		landingPage = new LandingPage(driver);
 		commonActions = new CommonActions();
-		popUpWindow = new PopUpWindow(driver);
-		
+		popUpWindow = new PopUpWindowPage(driver);
+		getYourQuotePage = new GetYourQuotePage(driver);
 		
 		
 	}

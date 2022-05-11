@@ -7,9 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.statefarm.qa.common.CommonActions;
 
-public class PopUpWindow {
+public class PopUpWindowPage {
 	
-	public PopUpWindow(WebDriver driver) {
+	public PopUpWindowPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 	

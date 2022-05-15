@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Default_suite" class="navigator-link ">
-                    <span>C:\Users\rubal\AppData\Local\Temp\testng-eclipse-1648830248\testng-customsuite.xml</span>
+                    <span>C:\Users\rubal\AppData\Local\Temp\testng-eclipse-1611791784\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="com.allstate.qa.auto.AutoQuoteTest" class="method navigator-link" hash-for-method="AutoTest">AutoTest</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="com.allstate.qa.tests.HomeQuoteTest" class="method navigator-link" hash-for-method="homeQuoteTest">homeQuoteTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -122,14 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.allstate.qa.auto.AutoQuoteTest</span>
+              <span class="class-name">com.allstate.qa.tests.HomeQuoteTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="AutoTest">
-                  </a> <!-- AutoTest -->
-                  <span class="method-name">AutoTest</span>
+                  <a name="homeQuoteTest">
+                  </a> <!-- homeQuoteTest -->
+                  <span class="method-name">homeQuoteTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -137,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\rubal\AppData\Local\Temp\testng-eclipse-1648830248\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\rubal\AppData\Local\Temp\testng-eclipse-1611791784\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,7 +146,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.allstate.qa.auto.AutoQuoteTest&quot;/&gt;
+      &lt;class name=&quot;com.allstate.qa.tests.HomeQuoteTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -188,14 +188,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'AutoTest')
-data.setCell(0, 2, 'com.allstate.qa.auto.AutoQuoteTest')
-data.setCell(0, 3, 22128);
+data.setCell(0, 1, 'homeQuoteTest')
+data.setCell(0, 2, 'com.allstate.qa.tests.HomeQuoteTest')
+data.setCell(0, 3, 5649);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -207,20 +207,21 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
-              <span class="reporter-method-name">AutoTest</span>
+              <span class="reporter-method-name">homeQuoteTest</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">07457 : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: quote-main-zip-code-input]<br></span>
-                <span class="reporter-method-output">Element is clicking : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: quote-main-zip-btn]<br></span>
-                <span class="reporter-method-output">Element is clicking : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: billOfRightsModalCloseLinkId]<br></span>
-                <span class="reporter-method-output">Jordan : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: first_name]<br></span>
-                <span class="reporter-method-output">R : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> xpath: //input[@id='middle_name']]<br></span>
-                <span class="reporter-method-output">Pippen : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> xpath: //input[@id='last_name']]<br></span>
-                <span class="reporter-method-output">Element is clicking : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> xpath: //span[@class='ui-selectmenu-icon ui-icon chevron']]<br></span>
-                <span class="reporter-method-output">Element is clicking : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: ui-id-7]<br></span>
-                <span class="reporter-method-output">1 South Corporate Drive : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: street1]<br></span>
-                <span class="reporter-method-output">1C : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: street2]<br></span>
-                <span class="reporter-method-output">03231984 : value passed to element : [[ChromeDriver: chrome on WINDOWS (5d074177941182e79c769a21c0709c21)] -> id: date_of_birth]<br></span>
-                <span class="reporter-method-output">Element is clicking : Proxy element for: DefaultElementLocator 'By.xpath: (//button[@class='uitk-btn-primary'])[2]'<br></span>
+                <span class="reporter-method-output">Homeowners : value has been selected from the element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: popDropdown]<br></span>
+                <span class="reporter-method-output">10008 : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: quote-main-zip-code-input]<br></span>
+                <span class="reporter-method-output">Element is clicking : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: quote-main-zip-btn]<br></span>
+                <span class="reporter-method-output">Pippen : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: firstName]<br></span>
+                <span class="reporter-method-output">Jordan : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: lastName]<br></span>
+                <span class="reporter-method-output">R : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: middleName]<br></span>
+                <span class="reporter-method-output">II : value has been selected from the element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: nameSuffix]<br></span>
+                <span class="reporter-method-output">2 Gold Street : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: street]<br></span>
+                <span class="reporter-method-output">23-33 : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: street2]<br></span>
+                <span class="reporter-method-output">05/23/1999 : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: dateOfBirth]<br></span>
+                <span class="reporter-method-output">Element is clicking : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: sameAsRiskAddress]<br></span>
+                <span class="reporter-method-output">Actual value : Disclosures >>><<< Expected value : Disclosures</span>
+                <span class="reporter-method-output">Actual value : Notice of Privacy Policy >>><<< Expected value : Notice of Privacy Policy</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -238,18 +239,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.allstate.qa.auto.AutoQuoteTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.allstate.qa.tests.HomeQuoteTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">AutoTest</span>
-                <span class="method-start">4044 ms</span>
+                <span class="method-name">homeQuoteTest</span>
+                <span class="method-start">9244 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">cleaningUp</span>
-                <span class="method-start">26175 ms</span>
+                <span class="method-start">14895 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

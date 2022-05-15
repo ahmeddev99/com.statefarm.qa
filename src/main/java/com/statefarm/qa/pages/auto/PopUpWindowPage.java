@@ -1,4 +1,4 @@
-package com.statefarm.qa.pages;
+package com.statefarm.qa.pages.auto;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

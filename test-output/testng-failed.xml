@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.allstate.qa.auto.AutoQuoteTest">
+      <class name="com.allstate.qa.tests.HomeQuoteTest">
         <methods>
-          <include name="AutoTest"/>
+          <include name="homeQuoteTest"/>
           <include name="cleaningUp"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- com.allstate.qa.auto.AutoQuoteTest -->
+      </class> <!-- com.allstate.qa.tests.HomeQuoteTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

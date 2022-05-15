@@ -1,4 +1,4 @@
-package com.allstate.qa.auto;
+package com.allstate.qa.tests;
 
 
 import org.testng.annotations.Test;
@@ -19,19 +19,25 @@ public class AutoQuoteTest extends BaseClass {
 		getYourQuotePage.selectSuffix(commonActions);
 		getYourQuotePage.streetAddress(commonActions, "1 South Corporate Drive");
 		getYourQuotePage.apartment(commonActions, "1C");
-//		getYourQuotePage.clearCity(commonActions);             // if i want to change city
-//		getYourQuotePage.inputCity(commonActions, "Bulter");  //  <--- to this
 		getYourQuotePage.inputDOB(commonActions, "03231984");
 		getYourQuotePage.clickVehicles(commonActions);
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+//   		getYourQuotePage.clearCity(commonActions);             // if i want to change city
+//          getYourQuotePage.inputCity(commonActions, "Bulter");  //  <--- to this

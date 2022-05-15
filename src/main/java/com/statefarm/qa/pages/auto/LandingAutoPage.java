@@ -1,4 +1,4 @@
-package com.statefarm.qa.pages;
+package com.statefarm.qa.pages.auto;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,9 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.statefarm.qa.common.CommonActions;
 
-public class LandingPage {
+public class LandingAutoPage {
 	
-	public LandingPage(WebDriver driver) {
+	public LandingAutoPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
 	

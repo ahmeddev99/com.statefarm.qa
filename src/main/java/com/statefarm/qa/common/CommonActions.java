@@ -1,6 +1,9 @@
 package com.statefarm.qa.common;
 
 import java.time.Duration;
+
+import org.openqa.selenium.JavascriptException;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -9,6 +12,9 @@ import org.testng.Assert;
 import org.testng.Reporter;
 
 import com.statefarm.qa.base.BaseClass;
+
+
+
 
 
 
@@ -66,18 +72,47 @@ public class CommonActions {
 		}
 	}
 	
-	public void selectDropDown(WebElement element, String value) {
+	public void selectByValue(WebElement element, String value) {
 		try {
 			Select select = new Select(element);
 			select.selectByValue(value);
-			Reporter.log(value + " : has been selected for element, " + element);
-		} catch (Exception e) {
+			Reporter.log(value + " : value has been selected from the element : " + element + "<br>");
+		} catch (Throwable e) {
 			e.printStackTrace();
-			Reporter.log(element + " Element Not Found \n" + e.getLocalizedMessage());
+			Reporter.log("Locator doesn't match for : " + element + "\n" + e.getMessage() + "<br>");
 			Assert.fail();
 		}
 	}
 	
+	public String getText(WebElement element, String expected) {
+		try {
+			Reporter.log("Actual value : " + element.getText() + " >>><<< Expected value : " + expected);
+			Assert.assertEquals(element.getText(), expected);
+			return element.getText();
+		} catch (NullPointerException | NoSuchElementException e) {
+			e.printStackTrace();
+			Reporter.log(element + " Element Not Found \n" + e.getLocalizedMessage());
+			return element + " : Element Not Found";
+		}
+	}
+	
+	public void scrollUp() {
+		try {
+			Reporter.log("Scrolling up to 250 to 0 pixels");
+		} catch (JavascriptException e) {
+			Reporter.log("Exception while scrolling up");
+		}
+	}
+
+	public void scrollIntoViewTheElement(WebElement element) {
+		try {
+			Reporter.log("Scrolling into element : " + element + ", Succeed");
+		} catch (JavascriptException e) {
+			e.printStackTrace();
+			Reporter.log("Scrolling into element : " + element + ", Failed \n" + e.getLocalizedMessage());
+			Assert.fail();
+		}
+	}
 
 
 

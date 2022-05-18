@@ -1,99 +1,164 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Homeowners : value has been selected from the element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: popDropdown]<br>]]>
+      <![CDATA[Homeowners : value has been selected from the element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: popDropdown]<br>]]>
     </line>
     <line>
-      <![CDATA[10008 : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: quote-main-zip-code-input]<br>]]>
+      <![CDATA[07424 : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: quote-main-zip-code-input]<br>]]>
     </line>
     <line>
-      <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: quote-main-zip-btn]<br>]]>
+      <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: quote-main-zip-btn]<br>]]>
     </line>
     <line>
-      <![CDATA[Pippen : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: firstName]<br>]]>
+      <![CDATA[Pippen : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: firstName]<br>]]>
     </line>
     <line>
-      <![CDATA[Jordan : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: lastName]<br>]]>
+      <![CDATA[Jordan : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: lastName]<br>]]>
     </line>
     <line>
-      <![CDATA[R : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: middleName]<br>]]>
+      <![CDATA[R : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: middleName]<br>]]>
     </line>
     <line>
-      <![CDATA[II : value has been selected from the element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: nameSuffix]<br>]]>
+      <![CDATA[II : value has been selected from the element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: nameSuffix]<br>]]>
     </line>
     <line>
-      <![CDATA[2 Gold Street : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: street]<br>]]>
+      <![CDATA[12 Pompton Ave : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: street]<br>]]>
     </line>
     <line>
-      <![CDATA[23-33 : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: street2]<br>]]>
+      <![CDATA[1st Fl : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: street2]<br>]]>
     </line>
     <line>
-      <![CDATA[05/23/1999 : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: dateOfBirth]<br>]]>
+      <![CDATA[11/15/1985 : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: dateOfBirth]<br>]]>
     </line>
     <line>
-      <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: sameAsRiskAddress]<br>]]>
-    </line>
-    <line>
-      <![CDATA[Actual value : Disclosures >>><<< Expected value : Disclosures]]>
-    </line>
-    <line>
-      <![CDATA[Actual value : Notice of Privacy Policy >>><<< Expected value : Notice of Privacy Policy]]>
+      <![CDATA[Element is clicking : Proxy element for: DefaultElementLocator 'By.id: continue'<br>]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-05-15T14:06:20 EDT" name="Default suite" finished-at="2022-05-15T14:06:35 EDT" duration-ms="14913">
+  <suite started-at="2022-05-16T22:32:17 EDT" name="Default suite" finished-at="2022-05-16T22:32:32 EDT" duration-ms="14610">
     <groups>
     </groups>
-    <test started-at="2022-05-15T14:06:20 EDT" name="Default test" finished-at="2022-05-15T14:06:35 EDT" duration-ms="14913">
+    <test started-at="2022-05-16T22:32:17 EDT" name="Default test" finished-at="2022-05-16T22:32:32 EDT" duration-ms="14610">
       <class name="com.allstate.qa.tests.HomeQuoteTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.allstate.qa.tests.HomeQuoteTest@169e6180]" started-at="2022-05-15T14:06:20 EDT" name="setUp" finished-at="2022-05-15T14:06:29 EDT" duration-ms="9242" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.allstate.qa.tests.HomeQuoteTest@169e6180]" started-at="2022-05-16T22:32:17 EDT" name="setUp" finished-at="2022-05-16T22:32:22 EDT" duration-ms="4907" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="homeQuoteTest()[pri:0, instance:com.allstate.qa.tests.HomeQuoteTest@169e6180]" started-at="2022-05-15T14:06:29 EDT" name="homeQuoteTest" finished-at="2022-05-15T14:06:35 EDT" duration-ms="5649" status="PASS">
+        <test-method signature="homeQuoteTest()[pri:0, instance:com.allstate.qa.tests.HomeQuoteTest@169e6180]" started-at="2022-05-16T22:32:22 EDT" name="homeQuoteTest" finished-at="2022-05-16T22:32:31 EDT" duration-ms="9530" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'CODEONE', ip: '192.168.1.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [643eebb6ee1abd88d8d2fe5e70850ae1, findElement {using=id, value=fireProtectionAreaNameSelectId}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\rubal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53290}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53290/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 643eebb6ee1abd88d8d2fe5e70850ae1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=101.0.4951.54)
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'CODEONE', ip: '192.168.1.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [643eebb6ee1abd88d8d2fe5e70850ae1, findElement {using=id, value=fireProtectionAreaNameSelectId}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.54, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\rubal\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53290}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:53290/devtoo..., se:cdpVersion: 101.0.4951.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 643eebb6ee1abd88d8d2fe5e70850ae1
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at jdk.proxy2/jdk.proxy2.$Proxy16.toString(Unknown Source)
+at java.base/java.lang.String.valueOf(String.java:4215)
+at java.base/java.lang.StringBuilder.append(StringBuilder.java:169)
+at com.statefarm.qa.common.CommonActions.selectByValue(CommonActions.java:77)
+at com.statefarm.qa.pages.home.YourLocationPage.fireProtection(YourLocationPage.java:22)
+at com.allstate.qa.tests.HomeQuoteTest.homeQuoteTest(HomeQuoteTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
             <line>
-              <![CDATA[Homeowners : value has been selected from the element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: popDropdown]<br>]]>
+              <![CDATA[Homeowners : value has been selected from the element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: popDropdown]<br>]]>
             </line>
             <line>
-              <![CDATA[10008 : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: quote-main-zip-code-input]<br>]]>
+              <![CDATA[07424 : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: quote-main-zip-code-input]<br>]]>
             </line>
             <line>
-              <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: quote-main-zip-btn]<br>]]>
+              <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: quote-main-zip-btn]<br>]]>
             </line>
             <line>
-              <![CDATA[Pippen : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: firstName]<br>]]>
+              <![CDATA[Pippen : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: firstName]<br>]]>
             </line>
             <line>
-              <![CDATA[Jordan : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: lastName]<br>]]>
+              <![CDATA[Jordan : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: lastName]<br>]]>
             </line>
             <line>
-              <![CDATA[R : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: middleName]<br>]]>
+              <![CDATA[R : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: middleName]<br>]]>
             </line>
             <line>
-              <![CDATA[II : value has been selected from the element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: nameSuffix]<br>]]>
+              <![CDATA[II : value has been selected from the element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: nameSuffix]<br>]]>
             </line>
             <line>
-              <![CDATA[2 Gold Street : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: street]<br>]]>
+              <![CDATA[12 Pompton Ave : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: street]<br>]]>
             </line>
             <line>
-              <![CDATA[23-33 : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: street2]<br>]]>
+              <![CDATA[1st Fl : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: street2]<br>]]>
             </line>
             <line>
-              <![CDATA[05/23/1999 : value passed to element : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: dateOfBirth]<br>]]>
+              <![CDATA[11/15/1985 : value passed to element : [[ChromeDriver: chrome on WINDOWS (643eebb6ee1abd88d8d2fe5e70850ae1)] -> id: dateOfBirth]<br>]]>
             </line>
             <line>
-              <![CDATA[Element is clicking : [[ChromeDriver: chrome on WINDOWS (9df7b55e6c1971a9e943a6bef81b9d0d)] -> id: sameAsRiskAddress]<br>]]>
-            </line>
-            <line>
-              <![CDATA[Actual value : Disclosures >>><<< Expected value : Disclosures]]>
-            </line>
-            <line>
-              <![CDATA[Actual value : Notice of Privacy Policy >>><<< Expected value : Notice of Privacy Policy]]>
+              <![CDATA[Element is clicking : Proxy element for: DefaultElementLocator 'By.id: continue'<br>]]>
             </line>
           </reporter-output>
         </test-method> <!-- homeQuoteTest -->
-        <test-method is-config="true" signature="cleaningUp()[pri:0, instance:com.allstate.qa.tests.HomeQuoteTest@169e6180]" started-at="2022-05-15T14:06:35 EDT" name="cleaningUp" finished-at="2022-05-15T14:06:35 EDT" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="cleaningUp()[pri:0, instance:com.allstate.qa.tests.HomeQuoteTest@169e6180]" started-at="2022-05-16T22:32:31 EDT" name="cleaningUp" finished-at="2022-05-16T22:32:32 EDT" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleaningUp -->

@@ -12,6 +12,7 @@ import com.statefarm.qa.pages.auto.GetYourQuotePage;
 import com.statefarm.qa.pages.auto.LandingAutoPage;
 import com.statefarm.qa.pages.auto.PopUpWindowPage;
 import com.statefarm.qa.pages.home.LandingHomePage;
+import com.statefarm.qa.pages.home.YourLocationPage;
 import com.statefarm.qa.pages.home.HomeOwnersQuote;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -26,6 +27,7 @@ public class BaseClass {
 	public GetYourQuotePage getYourQuotePage;
 	public LandingHomePage landingHomePage;
 	public HomeOwnersQuote homeOwnersQuote;
+	public YourLocationPage yourLocationPage;
 	
 	
 	@BeforeMethod
@@ -42,7 +44,7 @@ public class BaseClass {
 	
 	@AfterMethod
 	public void cleaningUp() {
-//		driver.quit();
+		driver.quit();
 	}
 	
 	
@@ -53,7 +55,7 @@ public class BaseClass {
 		getYourQuotePage = new GetYourQuotePage(driver);
 		landingHomePage = new LandingHomePage(driver);
 		homeOwnersQuote = new HomeOwnersQuote(driver);
-		
+		yourLocationPage = new YourLocationPage(driver);
 	}
 
 }

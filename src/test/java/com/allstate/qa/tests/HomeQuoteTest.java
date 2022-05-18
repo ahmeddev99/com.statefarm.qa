@@ -9,25 +9,18 @@ public class HomeQuoteTest extends BaseClass {
 	@Test
 	public void homeQuoteTest() {
 		landingHomePage.selectProduct(commonActions, "Homeowners");
-		landingHomePage.inputZipCode(commonActions, "10008");
+		landingHomePage.inputZipCode(commonActions, "07424");
 		landingHomePage.clickOnStartQuote(commonActions);
-//		homeOwnersQuote.displayYourName(commonActions, "What is your name");
 		homeOwnersQuote.inputFirstName(commonActions, "Pippen");
 		homeOwnersQuote.inputLastName(commonActions, "Jordan");
 		homeOwnersQuote.inputMiddleName(commonActions, 'R');
 		homeOwnersQuote.selectSuffix(commonActions, "II");
-		homeOwnersQuote.inputStreet(commonActions, "2 Gold Street");
-		homeOwnersQuote.inputSuiteNumber(commonActions, "23-33");
-		homeOwnersQuote.dateOfBirth(commonActions, "05/23/1999");
-		homeOwnersQuote.sameAsAbove(commonActions);
-//		homeOwnersQuote.inputMalingAddress(commonActions, "90 John Street");
-//		homeOwnersQuote.inputMalingCity(commonActions, "New York");
-//		homeOwnersQuote.inputMalingsuit(commonActions, "33");
-//		homeOwnersQuote.inputMalingZipCode(commonActions, "10038");
-//		homeOwnersQuote.clickContinue(commonActions);
-		homeOwnersQuote.consumerReport(commonActions, "Disclosures");
-		homeOwnersQuote.noticePrivacy(commonActions, "Notice of Privacy Policy");
-//		homeOwnersQuote.clickContinue(commonActions);
+		homeOwnersQuote.inputStreet(commonActions, "12 Pompton Ave");
+		homeOwnersQuote.inputSuiteNumber(commonActions, "1st Fl");
+		homeOwnersQuote.dateOfBirth(commonActions, "11/15/1985");
+		homeOwnersQuote.clickContinue(commonActions);
+		yourLocationPage.fireProtection(commonActions, "WEST PATERSON");
+		yourLocationPage.fireContinue(commonActions);
 	}
 	
 

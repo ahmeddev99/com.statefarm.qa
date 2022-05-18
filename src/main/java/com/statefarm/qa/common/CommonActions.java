@@ -14,11 +14,6 @@ import org.testng.Reporter;
 import com.statefarm.qa.base.BaseClass;
 
 
-
-
-
-
-
 public class CommonActions {
 	
 	WebDriverWait wait = new WebDriverWait(BaseClass.driver, Duration.ofSeconds(20));
@@ -89,7 +84,7 @@ public class CommonActions {
 			Reporter.log("Actual value : " + element.getText() + " >>><<< Expected value : " + expected);
 			Assert.assertEquals(element.getText(), expected);
 			return element.getText();
-		} catch (NullPointerException | NoSuchElementException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 			Reporter.log(element + " Element Not Found \n" + e.getLocalizedMessage());
 			return element + " : Element Not Found";
@@ -104,15 +99,7 @@ public class CommonActions {
 		}
 	}
 
-	public void scrollIntoViewTheElement(WebElement element) {
-		try {
-			Reporter.log("Scrolling into element : " + element + ", Succeed");
-		} catch (JavascriptException e) {
-			e.printStackTrace();
-			Reporter.log("Scrolling into element : " + element + ", Failed \n" + e.getLocalizedMessage());
-			Assert.fail();
-		}
-	}
+	
 
 
 

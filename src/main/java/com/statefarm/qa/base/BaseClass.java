@@ -35,7 +35,6 @@ public class BaseClass {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(20));
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 		driver.get("https://www.statefarm.com");

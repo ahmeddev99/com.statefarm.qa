@@ -22,22 +22,7 @@ public class AutoQuoteTest extends BaseClass {
 		getYourQuotePage.inputDOB(commonActions, "03231984");
 		getYourQuotePage.clickVehicles(commonActions);
 		
-		
-		
 	}
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-//   		getYourQuotePage.clearCity(commonActions);             // if i want to change city
-//          getYourQuotePage.inputCity(commonActions, "Bulter");  //  <--- to this
